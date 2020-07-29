@@ -11,16 +11,17 @@ else
   nuclear_fuel_cycle_product_multiplier = 4/3
 end
 
--- multiply K2 nuclear fuel reprocessing recipe
+-- multiply K2 nuclear fuel reprocessing recipe core products
 -- keep Pu added by NF and energy already multiplied by NF
+-- also don't change the stone and tritium byproducts added by K2
 -- the end result is the K2 recipe multiplied by NF's multiplier with the Pu added by NF
 krastorio.recipes.multiplyIngredient(
   'nuclear-fuel-reprocessing',
   'used-up-uranium-fuel-cell',
   nuclear_fuel_cycle_ingredient_multiplier)
-krastorio.recipes.multiplyProducts(
+krastorio.recipes.multiplyProduct(
   'nuclear-fuel-reprocessing',
-  {'uranium-238', 'stone', 'tritium'},
+  'uranium-238',
   nuclear_fuel_cycle_product_multiplier)
 
 -- update NF MOX fuel cell recipe to produce the same relative amount of fuel cells per Pu as it does when just used with vanilla
