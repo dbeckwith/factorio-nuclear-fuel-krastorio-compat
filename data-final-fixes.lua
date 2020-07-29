@@ -23,6 +23,7 @@ krastorio.recipes.multiplyProduct(
   'nuclear-fuel-reprocessing',
   'uranium-238',
   nuclear_fuel_cycle_product_multiplier)
+data.raw.recipe['nuclear-fuel-reprocessing'].main_product = nil
 
 -- update NF MOX fuel cell recipe to produce the same relative amount of fuel cells per Pu as it does when just used with vanilla
 -- this is balanced because fuel cells are more energy-rich in K2
