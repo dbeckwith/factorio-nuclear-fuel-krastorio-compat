@@ -1,0 +1,14 @@
+{
+  "name": "sonaxaton-nuclear-fuel-krastorio-compat",
+  "version": "0.1.0",
+  "title": "Nuclear Fuel-Krastorio 2 Compatibility",
+  "author": "sonaxaton",
+  "homepage": "https://mods.factorio.com/mod/sonaxaton-nuclear-fuel-krastorio-compat",
+  "description": "Balances GotLag's Nuclear Fuel mod when used with Krastorio 2.",
+  "factorio_version": "0.18",
+  "dependencies": [
+    "base >= 0.18",
+    "Nuclear Fuel 1.1.2",
+    "Krastorio2 0.9.99"
+  ]
+}
