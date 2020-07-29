@@ -8,7 +8,8 @@
   "factorio_version": "0.18",
   "dependencies": [
     "base >= 0.18",
-    "Nuclear Fuel 1.1.2",
-    "Krastorio2 0.9.99"
+    "Nuclear Fuel",
+    "Krastorio2",
+    "? SchallUraniumProcessing"
   ]
 }
