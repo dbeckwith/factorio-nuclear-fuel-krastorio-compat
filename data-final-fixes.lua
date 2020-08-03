@@ -79,6 +79,11 @@ krastorio.recipes.multiplyProduct(
   'nuclear-fuel',
   4)
 
+-- update atomic bomb from Pu recipe to include heavy rocket as K2 does for the normal recipe
+krastorio.recipes.addIngredient(
+  'atomic-bomb-pu',
+  {'heavy-rocket', 1})
+
 
 -- STACK SIZES
 
